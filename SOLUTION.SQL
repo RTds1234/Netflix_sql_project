@@ -36,12 +36,6 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 5;
 
-/*SELECT 
-     STRING_TO_ARRAY(country,',') as new_country
-FROM netflix;*/
-/*SELECT
-    UNNEST(STRING_TO_ARRAY(country,',')) as new_country
-FROM netflix;*/
 
 --5. Identify the longest movie
 SELECT * FROM netflix
